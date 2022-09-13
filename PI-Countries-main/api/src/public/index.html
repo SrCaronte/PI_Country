@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruba Nodemailer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/sendemail" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="first_name" class="form_control" placeholder="nombre" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form_control" placeholder="correo">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="telephone" class="form_control" placeholder="telefono">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message"  rows="2" placeholder="escribe tu mensage"></textarea>
+                            </div>
+                            <button class="btn btn-primary btn-block">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

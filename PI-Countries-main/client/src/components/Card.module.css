@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+.container{
+    background: rgba(252, 161, 42, 0.733);
+    display:inline-block;
+    justify-content: space-evenly;
+    width:430px;
+    border: 2px solid black;
+    font-size: 13px;
+    font-family: 'Cinzel', serif;
+    color:rgb(0, 0, 0);
+}
+
+.continente{
+    font-size: 25px;
+}
